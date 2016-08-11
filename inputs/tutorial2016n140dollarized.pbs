@@ -1,0 +1,5 @@
+#!/bin/sh
+
+date
+./dmrg -f $$input ':c.txt' &> out$$ind.txt
+date
