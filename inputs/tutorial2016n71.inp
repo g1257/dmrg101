@@ -1,0 +1,28 @@
+TotalNumberOfSites=16
+NumberOfTerms=2
+
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors  1 0.4 
+
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors  1 0.4
+
+Model=Heisenberg
+HeisenbergTwiceS=1
+SolverOptions=none
+Version=3.46
+OutputFile=data2016n71.txt
+InfiniteLoopKeptStates=60
+FiniteLoops 4
+7 100 0 -7 100 0 -7 100 0 
+7 100 1 
+TargetElectronsTotal=16
+TargetSzPlusConst=8
+
+Orbitals=1
+Threads=1
+

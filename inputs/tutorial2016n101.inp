@@ -1,0 +1,54 @@
+TotalNumberOfSites=6
+NumberOfTerms=1
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors
+	1
+	-1.0
+
+hubbardU	6 0 0 0 0 0 0
+potentialV     12 0 0 0 0 0 0 
+                  0 0 0 0 0 0
+
+Model=HubbardOneBand
+SolverOptions=TimeStepTargetting,twositedmrg,advanceOnlyAtBorder
+Version=version
+OutputFile=data100.txt
+InfiniteLoopKeptStates=64
+FiniteLoops 10  
+2 400 0 -4 400 0 
+4 400 0 -4 400 0 
+4 400 0 -4 400 0
+4 400 0 -4 400 0
+4 400 0 -4 400 0
+
+RepeatFiniteLoopsFrom=8
+RepeatFiniteLoopsTimes=202
+
+TargetElectronsUp=4
+TargetElectronsDown=0   
+
+GsWeight=0.1
+TSPTau=0.1
+TSPTimeSteps=5
+TSPAdvanceEach=4
+TSPAlgorithm=Krylov
+TSPSites 1  2  
+TSPLoops 1  6  
+TSPProductOrSum=sum
+TSPUseQns=1
+IsPeriodicX=0
+Orbitals=1
+
+TSPOperator=raw
+RAW_MATRIX
+4 4
+0 0 1 0 
+0 0 0 1 
+0 0 0 0 
+0 0 0 0 
+FERMIONSIGN=-1
+JMVALUES 1 1
+AngularFactor=1
+

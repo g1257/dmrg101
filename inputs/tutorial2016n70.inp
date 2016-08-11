@@ -1,0 +1,26 @@
+TotalNumberOfSites=16
+NumberOfTerms=1
+
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors  1 1
+
+Model=HubbardOneBand
+hubbardU         16 10 10 10 10 10 10 10 10
+                    10 10 10 10 10 10 10 10
+potentialV	 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+                    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+SolverOptions=none
+Version=3.46
+OutputFile=data2016n70.txt
+InfiniteLoopKeptStates=60
+FiniteLoops 4
+7 100 0 -7 100 0 -7 100 0 
+7 100 1 
+TargetElectronsUp=8
+TargetElectronsDown=8
+
+Orbitals=1
+Threads=1
+

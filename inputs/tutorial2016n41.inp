@@ -1,0 +1,39 @@
+TotalNumberOfSites=60
+NumberOfTerms=2
+
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=none
+Connectors 59
+0.118 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.118
+
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=none
+Connectors 59
+0.118 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5
+0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.118 
+
+Model=Heisenberg
+HeisenbergTwiceS=1
+
+SolverOptions=none
+Version=3.46
+OutputFile=data2016n41.txt
+InfiniteLoopKeptStates=100
+FiniteLoops 5 
+29 100 0 -29 100 0 -29 100 0 
+29 100 1  29 100 1
+TargetElectronsTotal=60
+TargetSzPlusConst=30
+
+Threads=1

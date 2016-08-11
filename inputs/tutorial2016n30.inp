@@ -1,0 +1,41 @@
+TotalNumberOfSites=8
+NumberOfTerms=1
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors 1 1.0
+
+hubbardU         8 0 0 0 0 0 0 0 0
+potentialV      16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Model=HubbardOneBand
+SolverOptions=TimeStepTargetting
+Version=3.46
+OutputFile=data2016n30.txt
+InfiniteLoopKeptStates=100 
+FiniteLoops 12  3  200 0 -6 200 0 
+                6 200 0 -6 200 0 
+		6 200 0 -6 200 0 
+                6 200 0 -6 200 0
+                6 200 0 -6 200 0
+                6 200 0 -6 200 0
+TargetElectronsUp=4
+TargetElectronsDown=4
+GsWeight=0.1
+TSPTau=0.1
+TSPTimeSteps=5
+TSPAdvanceEach=6
+TSPAlgorithm=Krylov
+TSPSites 1    5
+TSPLoops 1    2
+TSPProductOrSum=product
+
+TSPOperator=raw 
+RAW_MATRIX 
+4 4
+0.0    0.0    0.0   0.0
+1.0    0.0    0.0   0.0
+0.0    0.0    0.0   0.0 
+0.0    0.0    1.0   0.0 
+FERMIONSIGN=-1
+JMVALUES 0 0
+AngularFactor=1

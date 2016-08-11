@@ -1,0 +1,27 @@
+TotalNumberOfSites=4
+NumberOfTerms=2
+
+DegreesOfFreedom=1
+GeometryKind=ladder
+GeometryOptions=ConstantValues
+Connectors 1 1.0 
+Connectors 1 1.0
+LadderLeg=2
+
+DegreesOfFreedom=1
+GeometryKind=ladder
+GeometryOptions=ConstantValues
+Connectors 1 1.0
+Connectors 1 1.0
+LadderLeg=2
+
+Model=Heisenberg
+HeisenbergTwiceS=1
+
+SolverOptions=none,dumpmatrix,InternalProductStored,printmatrix
+Version=3.46
+OutputFile=tutorial2016data20.txt
+InfiniteLoopKeptStates=60
+FiniteLoops 4  1 100 0 -1 100 0 -1 100 0 1 100 0
+TargetElectronsTotal=4
+TargetSzPlusConst=2

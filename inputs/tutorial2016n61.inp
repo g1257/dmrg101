@@ -1,0 +1,9 @@
+Nmax=30
+TemperatureTotal=2
+TemperatureBegin=0.01
+TemperatureEnd=1.0
+Iterations=100
+MuTotal=10
+MuBegin=0
+MuEnd=2
+U=8

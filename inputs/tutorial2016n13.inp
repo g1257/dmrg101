@@ -1,0 +1,24 @@
+TotalNumberOfSites=16 
+NumberOfTerms=1
+DegreesOfFreedom=1
+GeometryKind=ladder
+GeometryOptions=ConstantValues
+LadderLeg=2
+Connectors 1 1.0
+Connectors 1 1.0
+hubbardU	16 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+potentialV	32 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+		0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+Model=HubbardOneBand
+SolverOptions=none
+Version=version
+OutputFile=tutorial2016data13.txt
+InfiniteLoopKeptStates=100
+FiniteLoops 5
+ 7 400 0
+-7 400 0  -7 400 0 
+ 7 400 1   7 400 1 
+TargetElectronsUp=8
+TargetElectronsDown=8
+IsPeriodicX=0
+IsPeriodicY=0

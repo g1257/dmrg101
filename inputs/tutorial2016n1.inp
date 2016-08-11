@@ -1,0 +1,27 @@
+TotalNumberOfSites=12
+NumberOfTerms=2
+
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors 1 1.0
+
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors 1 1.0
+
+Model=Heisenberg
+HeisenbergTwiceS=1
+
+SolverOptions=none,dumpmatrix,InternalProductStored
+Version=3.46
+OutputFile=tutorial2016data1.txt
+InfiniteLoopKeptStates=10
+FiniteLoops 5
+ 5 100 0
+-5 100 0    -5 100 0
+ 5 100 1     5 100 1
+TargetElectronsTotal=12
+TargetSzPlusConst=6
+

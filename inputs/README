@@ -1,0 +1,82 @@
+tutorial2016n0.inp
+Heisenberg spin 1/2, 4 sites, Sz=0.
+For use in Lanczos++ and DMRG++
+
+tutorial2016n1.inp
+Heisenberg spin 1/2, 12 sites, Sz=0.
+For use in Lanczos++ and DMRG++
+Exercise 10, 11, 16.
+Modify to work on Exercise 12.
+
+tutorial2016n2.inp
+Heisenberg spin 1/2, 32 sites, Sz=0.
+Exercise 17.
+
+tutorial2016n3.inp
+4 site Heisenberg Sz=0. Periodic only for Lanczos++.
+DMRG++ ignores IsPeriodic=1 and does open boundary condition!
+Exercise 19.
+
+tutorial2016n10.inp
+Hubbard chain of 8 sites, half-filling. U=1
+
+tutorial2016n11.inp
+Hubbard chain of 32 sites, half-filling. U=8
+
+tutorial2016n12.inp    
+Hubbard chain of 6 sites, half-filling. U=4.
+Exercise 21.
+
+tutorial2016n13.inp
+Hubbard model simulated on a 2-leg ladder of 
+size $8\times2$ at half filling for $U=0$. 
+Exercise 29.
+
+tutorial2016n20.inp
+Heisenberg spin 1/2, 2x2 ladder, or 
+periodic chain of 4 sites. Sz=0.
+Exercise 19.
+
+tutorial2016n21.inp
+Heisenberg spin 1/2, 6x2 ladder. Sz=0.
+Exercise 20.
+
+tutorial2016n22.inp
+tutorial2016n30.inp
+
+tutorial2016n40.inp
+Heisenberg spin 1/2. Sz=0. 60 sites.
+J=1.
+Exercise 22.
+
+tutorial2016n41.inp
+Heisenberg spin 1/2. Sz=0. 60 sites.
+J=1 except for first and last link.
+Exercise 23.
+
+tutorial2016n50.inp
+16 sites tight-binding t=1, open chain.
+Exercise 25.
+
+tutorial2016n60.inp
+32 sites Hubbard. U=8, open chain.
+Modify to change densities.
+Exercise 26 and 27.
+
+tutorial2016n60.inp
+Same as input 60 but for BetheAnsatz
+
+tutorial2016n70.inp
+Hubbard U=10 half-filling, 16 site chain.
+Exercise 28.
+
+tutorial2016n71.inp
+Heisenberg model with J=0.4t. 16 site chain.
+Exercise 28.
+
+tutorial2016n100.inp
+tutorial2016n101.inp
+tutorial2016n102.inp
+tutorial2016n1800.inp
+tutorial2016n1801.inp
+tutorial2016n1802.inp
